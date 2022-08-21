@@ -1,0 +1,34 @@
+GET http://localhost:3000/quotes
+
+###
+
+POST  http://localhost:3000/quotes
+Content-Type: application/json
+
+{
+    "cite": "Accept the things to which fate binds you, and love the people with whom fate brings you together,but do so with all your heart.",
+    "author": "Marcus Aurelius"
+}
+
+###
+
+GET http://localhost:3000/quotes/630168094d7df337da4ecec6
+
+###
+POST  http://localhost:3000/quotes
+Content-Type: application/json
+
+{
+    "cite":"Things may come to those who wait, but only the things left by those who hustle.",
+    "author":"Abraham Lincoln"
+}
+
+
+
+
+
+
+
+
+
+
